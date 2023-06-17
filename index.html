@@ -1,1 +1,1017 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Eng: Mohamed Magdy Mettwally">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio Of Mohamed Magdy / HTML,HTML5 / CSS,CSS3 / Bootstrap / JS / ">
+        <meta name="keywords" content="HTML HTML5 CSS CSS3 Bootstrap Portfolio Mohamed Magdy">
+
+        <title>Portfolio</title>
+        <meta property="og:image" content="./src/Images/Logo-MM-Cover.jpg">
+        <link rel="website icon" type="PNG" href="./src/Images/Logo-MM-Title.png">
+
+        <!-- Online Bootstrap CSS : -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+        
+        <!-- Offline Bootstrap CSS : -->
+        <link href="CSS/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- FontAwesome CSS : -->
+        <link href="CSS/all.min.css" rel="stylesheet"/>
+        
+        <!-- My Style CSS : -->
+        <link href="CSS/index.css" rel="stylesheet"/>
+
+    </head>
+
+    <body>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Navbar -->
+        <!------------>
+
+        <nav class="navbar fixed-top navbar-expand-lg py-0 bg-black">
+
+            <div id="myNavbar" class=" container-fluid py-2">
+
+                <label for="Navbar_BTN" class="Pointer navbar-brand  text-white fs-3 fw-bolder d-lg-none">Portfolio</label>
+                
+                <button id="Navbar_BTN" class="navbar-toggler"
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false" >
+
+                    <i class="fa-solid fa-bars text-white"></i>
+
+                </button>
+
+                <div id="navbarNavDropdown" class="collapse navbar-collapse">
+
+                    <ul class="navbar-nav ms-auto mx-lg-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#skills">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#practical">Practical</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            
+            </div>
+        
+        </nav>
+        
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Home -->
+        <!---------->
+
+        <header id="home" class="vh-100  mb-1 active">
+            
+            <div id="homeBG" class="text-start d-flex flex-column justify-content-center align-content-lg-center">
+                
+                <h1 class="text-light fw-bolder ms-3 my-3">Mohamed Magdy</h1>
+                        
+                <div class="d-flex justify-content-start ms-3 my-3">
+    
+                    <div class="rotating-text">
+            
+                        <p class="kf text-light">I'm a </p>
+            
+                        <p>
+                            <span class="word w-1">     Front &nbsp; End       </span>
+                            <span class="word w-2">     Back  &nbsp; End       </span>
+                            <span class="word w-3">     Full-Stack             </span>
+                            <span class="word w-4 fs-1">Info  &nbsp; Technology</span>
+                        </p>
+                
+                    </div>
+
+                </div>
+
+                <div class="text-light my-3 ms-3 d-flex justify-content-start">
+        
+                    <button onclick="openLink('www.linkedin.com/in/eng-m-ma9dy/')" class="SM-BTN-icon LinkedIn rounded-circle mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </button>
+
+                    <button onclick="openLink('github.com/Eng-M-Ma9dy')" class="SM-BTN-icon GitHub rounded-circle mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-github"></i>
+                    </button>
+
+                    <button onclick="openLink('www.facebook.com/eng.m.ma9dy/')" class="SM-BTN-icon Facebook rounded-circle mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-facebook"></i>
+                    </button>
+        
+                    <button onclick="openLink('www.instagram.com/eng.m.ma9dy/')" class="SM-BTN-icon Instagram rounded-circle mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-instagram"></i>
+                    </button>
+        
+                </div>
+        
+            </div>
+        
+        </header>
+        
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Skills -->
+        <!------------>
+
+        <main id="skills" class=" bg-black text-white mb-1">
+        
+            <div id="skillsBG" class="py-5">
+
+                <div class="container py-5  text-center">
+        
+                    <div class="row">
+    
+                        <div class="col-lg-4 mb-3 mb-lg-0 d-flex justify-content-center align-items-center">
+                            
+                            <div class="skills_myLogo mx-auto mb-5">
+
+                                <img src="src/Images/Logo-MM.jpg" class="w-100 rounded-circle border border-5 border-info mb-5 mb-lg-0" alt="">
+                    
+                            </div>
+                        
+                        </div>
+    
+                        <div class="col-lg-7 offset-lg-1">
+    
+                            <div class="text-start">
+    
+                                <h2 class="fw-bolder fs-1">My Skills.</h2>
+    
+                                <p class="text-info fw-bold">FULL-STACK WEB DEVELOPER / IT</p>
+    
+                                <p class="fs-5">I Ready to Learning and Gain New Skills Continuously, in My Work Field, To Deal with New Technology and updates Continuous, Through Research, Courses and Practical Life</p>
+            
+                                <div>
+    
+                                    <div class="mb-4">
+    
+                                        <label id="labelOfBTNFrontEndSkillsSlide" for="btnFrontEndSkillsSlideDown" class="Pointer w-100 rounded-4 p-2 bg-black text-white d-flex justify-content-between align-items-center border border-2">
+                                            
+                                            <p class="fs-4 m-0 text-info">Front End Skills</p>
+                                            
+                                            <button id="btnFrontEndSkillsSlideDown"   class="btn btn-outline-light rounded-circle border border-3 text-info">
+                                                
+                                                <i class="fa-solid fa-angles-down"></i>
+                                            
+                                            </button>
+
+                                            <button id="btnUpFrontEndSkillsSlideUp"   class="btn btn-outline-light rounded-circle border border-3 text-info d-none">
+                                            
+                                                <i class="fa-solid fa-angles-up"></i>
+                                            
+                                            </button>
+                                        
+                                        </label>
+        
+                                        <div id="FrontEndSkillsSlide">
+
+                                            <ul>
+                                                <li>HTML / HTML5</li>
+                                                <li>CSS3 / SASS</li>
+                                                <li>JS / jQuery</li>
+                                                <li>TypeScript</li>
+                                                <li>Bootstrap</li>
+                                                <li>Angular2+</li>
+                                            </ul>
+                                            
+                                        </div>
+    
+                                    </div>
+                                    
+    
+    
+                                    <div class="mb-4">
+    
+                                        <label id="labelOfBTNBackEndSkillsSlide" for="btnBackEndSkillsSlideDown" class="Pointer w-100 rounded-4 p-2 bg-black text-white d-flex justify-content-between align-items-center border border-2">
+                                            
+                                            <p class="fs-4 m-0 text-info">Back End Skills</p>
+                                            
+                                            <button id="btnBackEndSkillsSlideDown"   class="btn btn-outline-light rounded-circle border border-3 text-info">
+                                                
+                                                <i class="fa-solid fa-angles-down"></i>
+                                            
+                                            </button>
+                                        
+                                            <button id="btnUpBackEndSkillsSlideUp"   class="btn btn-outline-light rounded-circle border border-3 text-info d-none">
+                                            
+                                                <i class="fa-solid fa-angles-up"></i>
+                                            
+                                            </button>
+                                        
+                                        </label>
+    
+                                        <div id="BackEndSkillsSlide">
+
+                                            <ul>
+                                                <li>Node.JS</li>
+                                                <li>MongoDB / Mongoose</li>
+                                                <li>Rest APIs / Socket.io</li>
+                                                <li>Deal With:</li>
+                                                <ul>
+                                                    <li>Ajax / GraphQL</li>
+                                                    <li>SQL DB / Sequelize</li>
+                                                </ul>
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mb-4">
+    
+                                        <label id="labelOfBTNITSkillsSlide" for="btnITSkillsSlideDown" class="Pointer w-100 rounded-4 p-2 bg-black text-white d-flex justify-content-between align-items-center border border-2">
+                                            
+                                            <p class="fs-4 m-0 text-info">Technical Support</p>
+                                            
+                                            <button id="btnITSkillsSlideDown"   class="btn btn-outline-light rounded-circle border border-3 text-info">
+                                                
+                                                <i class="fa-solid fa-angles-down"></i>
+                                            
+                                            </button>
+                                        
+                                            <button id="btnUpITSkillsSlideUp"   class="btn btn-outline-light rounded-circle border border-3 text-info d-none">
+                                               
+                                                <i class="fa-solid fa-angles-up"></i>
+                                            
+                                            </button>
+                                        
+                                        </label>
+    
+                                        <div id="ITSkillsSlide">
+                                            <ul>
+                                                <li>Network Engineer</li>
+                                                <li>Domain Server Admin</li>
+                                                <li>Windows 7, 8.1, 10, 11</li>
+                                                <li>Backup and Recovery HD</li>
+                                                <li>Sharing files and Printers</li>
+                                                <li>Software Installation</li>
+                                                <li>Troubleshooting</li>
+
+                                                <li class="mt-3">Work on Virtual Platforms:</li>
+                                                <ul class="pt-1">
+                                                    <li>VMware / Hyper-V</li>
+                                                </ul>
+
+                                                <li class="mt-3">Devices Configuration:</li>
+                                                <ul class="pt-1">
+                                                    <li>AP / Switch / Router</li>
+                                                    <li>DVR / NVR / Fingerprint</li>
+                                                </ul>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="border border-3 border-info pt-3 mb-4 border-start-0 border-end-0 border-bottom-0">
+                                    
+                                    <button onclick="openLink('drive.google.com/file/d/1qIJ6oimo_VBHXhgjv7uiuJ5XxUQPGWIx/view?usp=sharing')" class="fw-bold p-3 me-1 btn btn-info">           Download CV </button>
+                                    
+                                    <button id="btnContactInfo"    class="fw-bold p-3 ms-1 btn btn-outline-light "> Contact Me  </button>
+                                
+                                </div>
+
+                                <div id="infoDiv">    
+
+                                    <div class="mb-4 d-flex justify-content-between align-items-center">    
+                    
+                                        <h5 class="text-info">My Info :</h5>    
+                    
+                                        <button id="btnCloseContactInfo" class="bg-transparent border-0 fs-3 text-info"><i class="fa-regular fa-circle-xmark"></i></button>    
+                    
+                                    </div> 
+
+                                    <div class="d-flex flex-column flex-xl-row justify-content-between align-items-center">
+
+                                        <div class="d-flex flex-column justify-content-evenly align-items-start">
+                        
+                                            <p class="text-info mb-3">Name : <span class="text-white ms-2">Mohamed Magdy Metwally</span></p>    
+                                            
+                                            <p class="text-info mb-3">Birthday : <span class="text-white ms-2">21 / November / 1996</span></p>    
+        
+                                            <div class="d-flex justify-content-start align-items-center mb-3">    
+                            
+                                                <p class="text-info mb-0">Phone : </p>    
+                            
+                                                <a style="text-decoration: none;" href="tel:+201285880488" class="bg-transparent text-white ms-3"><i class="fa-solid fa-phone fs-5"></i></a>    
+                            
+                                                <button class="btn border-0 text-white fs-5 p-0 ms-3 mb-1" onclick="openLink('wa.me/+201285880488')"><i class="fa-brands fa-whatsapp fs-4"></i></button>    
+                            
+                                                <p class="text-white mb-1 ms-2 fs-5">+201285880488</p>    
+                            
+                                            </div>
+                                            
+                                            <div class="d-flex justify-content-start align-items-center mb-3">    
+                            
+                                                <p class="text-info mb-0">Phone : </p>    
+                            
+                                                <a style="text-decoration: none;" href="tel:+201140155633" class="bg-transparent text-white ms-3"><i class="fa-solid fa-phone fs-5"></i></a>    
+                            
+                                                <button class="btn border-0 text-white fs-5 p-0 ms-3 mb-1" onclick="openLink('wa.me/+201140155633')"><i class="fa-brands fa-whatsapp fs-4"></i></button>    
+                            
+                                                <p class="text-white mb-1 ms-2 fs-5">+201140155633</p>    
+                            
+                                            </div>
+        
+                                            <div class="d-flex justify-content-start align-items-center my-2">    
+                            
+                                                <p class="text-info mb-0">Gmail : </p>    
+                                                
+                                                <a style="text-decoration: none;" href="mailto:Eng.M.Ezzeldeen@gmail.com" class="bg-transparent text-white ms-3"><i class="fa-regular fa-envelope fs-4"></i></a>    
+                            
+                                                <p class="text-white mb-1 mx-2">Eng.M.Ezzeldeen@gmail.com</p>    
+                            
+                                            </div> 
+    
+                                        </div>
+
+                                        <div class="mb-xl-4">
+
+                                            <img src="./src/Images/MyContactInfo.jpg" alt="Contact-Info" style="width: 200px; height: 200px;" class="my-4 my-xl-0 p-3 rounded-4 border border-5 border-info">
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+        
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- About -->
+        <!--------------->  
+        
+        <article id="about" class="mb-1 pb-5">
+
+            <div class="pt-5">
+
+                <div class="container pt-5">
+
+                    <h2 class="about_heder text-center py-5 mb-5">About Me.</h2>
+
+                </div>
+            
+                <div id="about_Programming" class="py-3">
+
+                    <div class="container py-3">
+
+                        <div class="row my-4 d-flex justify-content-center align-items-center">
+    
+                            <div class="col-lg-6">
+    
+                                <div id="programming_info">
+    
+                                    <p class="fs-6 fw-bold">
+                                        I Got Education and Practical Training @ Route Academy<br>
+                                        From: July 2022. To: May, 2023
+                                    </p>
+
+                                    <p class="fs-6">
+                                        During this time, I completed a number of projects (Front End / Back End) Using :
+                                        HTML, CSS, SASS, Bootstrap, JS, JQuery, TypeScript, Angular2,
+                                        Node.js, SQL DB (Sequelize), MongoDB (Mongoose), APIs,GraphQL, Socket.io, Ajax.
+                                    </p>
+            
+                                    <p class="fw-bold">
+                                        After Completing The Trining Time,<br>
+                                        I Worked on Build a Website hat Contains<br>
+                                        Everything We Learned During The Course
+                                    </p>
+            
+                                    <div class="row">
+
+                                        <div class = "about_BTN d-flex flex-column">
+
+                                            <button class="col-lg-6 my-2 btn btn-primary"  onclick="openLink('eng-m-ma9dy.github.io/FrontEnd/')"><i class="fa-solid fa-laptop-code"></i> My Front End Website</button>
+                                            <button class="col-lg-6 my-2 btn btn-primary"  onclick="openLink('eng-m-ma9dy.github.io/BackEnd/')"><i class="fa-solid fa-laptop-code"></i> My Back End Website </button>
+                                            <button class="col-lg-6 mt-2 btn btn btn-dark" onclick="openLink('drive.google.com/file/d/1p4Zd-6hU-Pd5kbf8sY6VjHY9gV_D-6XE/view?usp=sharing')"><i class="fa-solid fa-file me-2"></i>   My Programming CV   </button>
+    
+                                        </div>
+
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-lg-6 my-4 my-lg-0">
+
+                                <img src="./src/Images/About1.jpg" alt="Programming Photo" class="w-100 rounded-4">
+
+                            </div>
+        
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                <div id="about_IT" class="py-3">
+
+                    <div class="container py-3">
+
+                        <div class="row my-4 d-flex flex-row-reverse justify-content-center align-items-center">
+    
+                            <div class="col-lg-6">
+    
+                                <div class="it_info">
+
+                                    <p class="fs-6 fw-bold">
+                                        I Got Education and Practical Training @ New Horizons<br>
+                                        From: September, 2016. To: August , 2017
+                                    </p>
+
+                                    <p class="fs-6">
+                                        I am interested in the information technology field, and I finished my first diploma in information technology
+                                        While studying in the second year of college, I completed a number of courses during this time
+                                        including, CompTIA A+ , CompTIA N+, CCNA, CCNP, MCSA, and I have more than three years of practical experience in this field.
+                                    </p>
+            
+                                    <p class="fw-bold">I Had Created A Network Summary.</p>
+    
+                                        <div class="row">
+
+                                            <div class = "about_BTN  d-flex flex-column">
+
+                                                <button class="col-lg-6 my-2 btn btn-primary"  onclick="openLink('drive.google.com/drive/folders/1s6VteSsM89n9W5bo2AV1b-Vk4V81PpGQ?usp=sharing')">  <i class="fa-solid fa-laptop-code"></i> Cisco Courses Summary </button>
+                                                <button class="col-lg-6 mt-2 btn btn btn-dark" onclick="openLink('drive.google.com/file/d/18uYWCcjizndXcYiWr9qm5E3-87GExB8H/view?usp=sharing')"> <i class="fa-solid fa-file me-2"></i>   My CV Of IT Department   </button>
+                                    
+                                            </div>
+
+                                        </div>
+
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-lg-6 my-4 my-lg-0">
+
+                                <img src="./src/Images/About2.jpg" alt="IT Photo" class="w-100 rounded-4">
+
+                            </div>
+        
+                        </div>
+    
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+        </article>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Services -->
+        <!--------------> 
+
+        <section id="services" class="mb-1 bg-dark">
+
+            <div class="py-5">
+
+                <div class="container pt-5">
+
+                    <h2 class="services_heder text-center text-white mb-5">Services.</h2>
+                    
+                </div>
+    
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-lg-3 g-4">
+
+                        <div class="col mb-5 mb-md-0">
+
+                            <div class="card bg-dark border-white border-0">
+
+                                <img src="./src/Images/services_card1.jpg" class="card-img-top" alt="...">
+                                
+                                <div class="card-body">
+
+                                    <h4 class="card-title text-primary pb-3 mb-3 border-bottom border-2 border-primary">>> Internet Website</h4>
+                                    
+                                    <p class="card-text text-white">Create Your Website Responsive With Phone and Customize it According to Your Kind of Work and Services, To Ease Your Clients' Access to You</p>
+                                
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col mb-5 mb-md-0">
+
+                            <div class="card bg-dark border-white border-0">
+
+                                <img src="./src/Images/services_card2.jpg" class="card-img-top" alt="...">
+                              
+                                <div class="card-body">
+
+                                    <h4 class="card-title text-primary pb-3 mb-3 border-bottom border-2 border-primary">>> Online System</h4>
+                                    
+                                    <p class="card-text text-white">Build Your Personal Online Market or Web System Application For Your Organization and Link it to The Database to View and Manage Your System From Anywhere.</p>
+                              
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col mb-5 mb-md-0">
+
+                            <div class="card bg-dark border-white border-0">
+                                
+                                <img src="./src/Images/services_card3.jpg" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                
+                                    <h4 class="card-title text-primary pb-3 mb-3 border-bottom border-2 border-primary">>> Technical Support</h4>
+                               
+                                    <p class="card-text text-white">Provide All IT Services, Confirmation Devices ( AP / SW / Router / DVR / NVR / Fingerprint / Win-Server ), Windows Setup, Software Installation, Files and Printer Sharing, Troubleshooting.</p>
+                              
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Practical -->
+        <!--------------->
+
+        <section id="practical" class="mb-1">
+            
+            <div class="py-5">
+
+                <div class="container my-5">
+
+                    <h2 class="practical_heder text-center">My Practical App.</h2>
+                
+                </div>
+            
+             
+
+                <!-- 3X1-Sliders ------------------------>
+
+                    <div id="carouselExampleIndicators1" class="container carousel slide p-0 d-none d-lg-block">
+
+                        <div class="carousel-inner py-0">
+
+                            <div class="carousel-item active ">
+
+                                <div class="container p-0">
+
+                                        <div class="row row-cols-1 row-cols-lg-3 g-4 my-4">
+                                            
+                                            <!-- Add Card ------------------------------->
+
+                                            <div class="col m-0">
+                    
+                                                <div class="card practical_card bg-dark border border-primary border-5 rounded-4">
+                    
+                                                    <img src="./src/Images/practical_card1.jpg" class="card-img-top" alt="...">
+                                                    
+                                                    <div class="card-body">
+                    
+                                                        <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom border-3 border-primary">
+
+                                                            <h4 class="card-title text-primary fw-bold">Front-End Website</h4>
+                                                        
+                                                            <button onclick="openLink('eng-m-ma9dy.github.io/FrontEnd/')" class="btn btn-primary">Open Website</button>
+    
+                                                        </div>
+
+                                                        <h5 class="fw-bold text-white">The Description :</h5>
+
+                                                        <p class="card-text text-white">
+                                                            The Reference For Front-End Developers, 
+                                                            It's Contain All Code The Developers use in coding, 
+                                                            HTML, CSS, SASS, Bootstrap, JS, TS, Angular2
+                                                        </p>
+                                                    
+                                                    </div>
+                    
+                                                </div>
+                    
+                                            </div>
+                    
+                                            <div class="col m-0">
+                    
+                                                <div class="card practical_card bg-dark border border-primary border-5 rounded-4">
+                    
+                                                    <img src="./src/Images/practical_card2.jpg" class="card-img-top" alt="...">
+                                                    
+                                                    <div class="card-body">
+                    
+                                                        <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom border-3 border-primary">
+
+                                                            <h4 class="card-title text-primary fw-bold">Back-End Website</h4>
+                                                        
+                                                            <button onclick="openLink('eng-m-ma9dy.github.io/BackEnd/')" class="btn btn-primary">Open Website</button>
+    
+                                                        </div>
+
+                                                        <h5 class="fw-bold text-white">The Description :</h5>
+
+                                                        <p class="card-text text-white">
+                                                            The Reference For Back-End Developers, 
+                                                            It's Contain All Code The Developers use in coding, 
+                                                            Node.js, SQL DB (Sequelize), MongoDB (Mongoose), APIs,GraphQL, Socket.io, Ajax.
+                                                        </p>
+                                                    
+                                                    </div>
+                    
+                                                </div>
+                    
+                                            </div>
+                    
+                                            <div class="col m-0">
+                    
+                                                <div class="card practical_card bg-dark border border-primary border-5 rounded-4">
+                    
+                                                    <img src="./src/Images/practical_card3.jpg" class="card-img-top" alt="...">
+                                                    
+                                                    <div class="card-body">
+                    
+                                                        <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom border-3 border-primary">
+
+                                                            <h4 class="card-title text-primary fw-bold">CRUD Application</h4>
+                                                        
+                                                            <button onclick="openLink('eng-m-ma9dy.github.io/CRUD/')" class="btn btn-primary">Open Website</button>
+    
+                                                        </div>
+
+                                                        <h5 class="fw-bold text-white">The Description :</h5>
+
+                                                        <p class="card-text text-white">
+                                                            Create Element, Retrieve Element,<br>
+                                                            Update Element, Delete Element,<br>
+                                                            And More Features In This App
+                                                        </p>
+                                                    
+                                                    </div>
+                    
+                                                </div>
+                    
+                                            </div>
+
+                                        </div>
+                                </div>
+
+                            </div>
+                            
+                            <!-- Add Card ------------------------------->
+                            <!--
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                             -->
+                             <!-- Add Card ------------------------------->
+                             <!-- 
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            -->
+
+                        </div>
+
+                        <div class="position-relative d-flex justify-content-center align-items-center py-2 my-3">
+
+                            <button class="carousel-control-prev SliderPositionSticky" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon practical_Slider_BTN_Next_Prev fs-1" aria-hidden="true"><i class="fa-solid fa-angles-left"></i></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <div class="carousel-indicators SliderPositionSticky bg-black m-0 px-3 mx-3 w-25">
+                                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <!-- Add Card ------------------------------->
+                                <!-- <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
+                                <!-- Add Card ------------------------------->
+                                <!-- <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                            </div>
+
+                            <button class="carousel-control-next SliderPositionSticky" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon practical_Slider_BTN_Next_Prev fs-1" aria-hidden="true"><i class="fa-solid fa-angles-right"></i></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                <!-- 1X1-Sliders ------------------------>
+
+                    <div id="carouselExampleIndicators2" class="container carousel slide p-0 d-lg-none">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item py-0 active">
+
+                                <div class="row row-cols-1 row-cols-lg-3 g-4 mx-0 my-0">
+                
+                                    <div class="col m-0">
+                    
+                                        <div class="card practical_card bg-dark border border-primary border-5 rounded-4">
+                    
+                                            <img src="./src/Images/practical_card1.jpg" class="card-img-top" alt="...">
+                                            
+                                            <div class="card-body">
+                    
+                                                <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom border-3 border-primary">
+
+                                                    <h4 class="card-title text-primary fw-bold">Front-End Website</h4>
+                                                
+                                                    <button onclick="openLink('eng-m-ma9dy.github.io/FrontEnd/')" class="btn btn-primary">Open Website</button>
+
+                                                </div>
+
+                                                <h5 class="fw-bold text-white">The Description :</h5>
+
+                                                <p class="card-text text-white">
+                                                    The Reference For Front-End Developers, 
+                                                    It's Contain All Code The Developers use in coding, 
+                                                    HTML, CSS, SASS, Bootstrap, JS, TS, Angular2
+                                                </p>
+                                            
+                                            </div>
+                    
+                                        </div>
+                    
+                                    </div>
+                
+                                </div>
+                            
+                            </div>
+
+                            <div class="carousel-item py-0">
+
+                                <div class="row row-cols-1 row-cols-lg-3 g-4 mx-0 my-0">
+                    
+                                    <div class="col m-0">
+                    
+                                        <div class="card practical_card bg-dark border border-primary border-5 rounded-4">
+                    
+                                            <img src="./src/Images/practical_card2.jpg" class="card-img-top" alt="...">
+                                            
+                                            <div class="card-body">
+                    
+                                                <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom border-3 border-primary">
+            
+                                                    <h4 class="card-title text-primary fw-bold">Back-End Website</h4>
+                                                
+                                                    <button onclick="openLink('eng-m-ma9dy.github.io/BackEnd/')" class="btn btn-primary">Open Website</button>
+            
+                                                </div>
+            
+                                                <h5 class="fw-bold text-white">The Description :</h5>
+            
+                                                <p class="card-text text-white">
+                                                    The Reference For Back-End Developers, 
+                                                    It's Contain All Code The Developers use in coding, 
+                                                    Node.js, SQL DB (Sequelize), MongoDB (Mongoose), APIs,GraphQL, Socket.io, Ajax.
+                                                </p>
+                                            
+                                            </div>
+                    
+                                        </div>
+                    
+                                    </div>
+                    
+                                </div>
+   
+                            </div>
+
+                            <div class="carousel-item py-0">
+ 
+                                <div class="row row-cols-1 row-cols-lg-3 g-4 mx-0 my-0">
+                    
+                                    <div class="col m-0">
+                    
+                                        <div class="card practical_card bg-dark border border-primary border-5 rounded-4">
+                    
+                                            <img src="./src/Images/practical_card3.jpg" class="card-img-top" alt="...">
+                                            
+                                            <div class="card-body">
+                    
+                                                <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom border-3 border-primary">
+            
+                                                    <h4 class="card-title text-primary fw-bold">CRUD Application</h4>
+                                                
+                                                    <button onclick="openLink('eng-m-ma9dy.github.io/CRUD/')" class="btn btn-primary">Open Website</button>
+            
+                                                </div>
+            
+                                                <h5 class="fw-bold text-white">The Description :</h5>
+            
+                                                <p class="card-text text-white">
+                                                    Create Element, Retrieve Element,<br>
+                                                    Update Element, Delete Element,<br>
+                                                    And More Features In This App
+                                                </p>
+                                            
+                                            </div>
+                    
+                                        </div>
+                    
+                                    </div>
+                    
+                                </div>               
+                            
+                            </div>
+
+                        </div>
+
+                        <div class="position-relative d-flex justify-content-center align-items-center py-2 my-3">
+
+                            <button class="carousel-control-prev SliderPositionSticky" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon practical_Slider_BTN_Next_Prev fs-1" aria-hidden="true"><i class="fa-solid fa-angles-left"></i></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <div class="carousel-indicators SliderPositionSticky bg-black m-0 px-3 mx-3">
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+
+                            <button class="carousel-control-next SliderPositionSticky" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon practical_Slider_BTN_Next_Prev fs-1" aria-hidden="true"><i class="fa-solid fa-angles-right"></i></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                <!-- End-Sliders ---------------------------------------------------------------------->
+
+
+            </div>
+            
+        </section>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Footer -->
+        <!------------>
+
+        <footer id="contact" class="py-5 bg-black text-white">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-xl-3 my-3 my-lg-0">
+
+                        <h4 class="mb-4 pb-4 border-bottom">Author :</h2>
+
+                        <h1>M O H A M E D</h1>
+                        
+                        <h1>M A G D Y</h1>
+    
+                    </div>
+    
+                    <div class="col-md-6 col-xl-3 my-3 my-lg-0">
+    
+                        <h4 class="mb-4 pb-4 border-bottom">Contact :</h4>
+
+                        <h6><a href="mailto:Eng.M.Ezzeldeen@gmail.com" class="a_None text-white">Email: Eng.M.Ezzeldeen@gmail.com</a></h6>  
+
+                        <button class="bg-transparent text-white border-0 p-0" onclick="openLink('wa.me/+201285880488')"><h6 class="mb-0">Phone : +20 12 858 80 4 88</h6></button>    
+                        
+                        <div class="d-flex justify-content-start my-3">
+        
+                            <button onclick="openLink('github.com/Eng-M-Ma9dy')" class="SM-BTN-icon GitHub    me-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-github"></i>
+                            </button>
+                
+                            <button onclick="openLink('www.linkedin.com/in/eng-m-ma9dy/')" class="SM-BTN-icon LinkedIn  mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </button>
+        
+                            <button onclick="openLink('www.facebook.com/eng.m.ma9dy/')" class="SM-BTN-icon Facebook  mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-facebook"></i>
+                            </button>
+                
+                            <button onclick="openLink('www.instagram.com/eng.m.ma9dy/')" class="SM-BTN-icon Instagram ms-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+                
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 my-3 my-lg-0">
+    
+                        <h4 class="mb-4 pb-4 border-bottom">My Pages :</h4>
+
+                        <h6><a href="mailto:Info.Unit.Alex@gmail.com" class="a_None text-white">Info.Unit.Alex@gmail.com</a></h6>  
+
+                        <button class="bg-transparent text-white border-0 p-0" onclick="openLink('wa.me/+201140155633')"><h6 class="mb-0">Phone : +20 11 40 155 6 33</h6></button>    
+                        
+                        <div class="text-light d-flex justify-content-start my-3">
+        
+                            <button onclick="openLink('www.facebook.com/info.unit.iu/')" class="SM-BTN-icon Facebook  me-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-facebook"></i>
+                            </button>
+                                            
+                            <button onclick="openLink('www.tiktok.com/@info.unit.iu')" class="SM-BTN-icon TikTok    mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </button>
+                
+                            <button onclick="openLink('www.instagram.com/info.unit.iu')" class="SM-BTN-icon Instagram mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+
+                            <button onclick="openLink('youtube.com/@Info.Unit-IU')" class="SM-BTN-icon Youtube   ms-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-youtube"></i>
+                            </button>
+                
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 mt-3 mt-lg-0 d-none d-md-flex justify-content-start justify-content-xl-center">
+
+                        <button class="bg-transparent text-white border-0 p-0" onclick="openLink('www.facebook.com/eng.m.ma9dy/')"><img src="src/Images/Logo-MM.jpg" class="footer_logo rounded-circle border border-5 border-info" alt=""></button>
+            
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- JS Links -->
+        <!-------------->
+
+        <!-- Online Bootstrap js : -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+        
+        <!-- Offline Bootstrap js : -->
+        <script src="JS/bootstrap.bundle.min.js"></script>
+
+        <!-- jQuery js : -->
+        <script src="JS/jquery-3.6.3.min.js"></script>
+
+        <!-- My JS Sheet : -->
+        <script src="JS/index.js"></script>
+    
+    </body>
+</html>
