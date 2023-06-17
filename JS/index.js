@@ -174,20 +174,4 @@ function openLink(url){
 
   return   window.open(`https://${url}`,"_blank")
 
-
-
-
-  if(n == 22)  return   window.open(`https://`   ,"_blank")
-  
-  if(n == 23)  return   window.open(`https://eng-m-ma9dy.github.io/CRUD/`      ,"_blank")
-
-
-  if(n == 31) return   window.open(`https://drive.google.com/file/d/1qIJ6oimo_VBHXhgjv7uiuJ5XxUQPGWIx/view?usp=sharing`  ,"_blank")
-
-  if(n == 32) return   window.open(`https://drive.google.com/file/d/1p4Zd-6hU-Pd5kbf8sY6VjHY9gV_D-6XE/view?usp=sharing`  ,"_blank")
-
-  if(n == 33) return   window.open(`https://drive.google.com/file/d/18uYWCcjizndXcYiWr9qm5E3-87GExB8H/view?usp=sharing`  ,"_blank")
-
-  if(n == 34) return   window.open(`https://drive.google.com/drive/folders/1s6VteSsM89n9W5bo2AV1b-Vk4V81PpGQ?usp=sharing`,"_blank")
-
 }
