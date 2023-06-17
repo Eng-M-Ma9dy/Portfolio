@@ -316,14 +316,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     width: 5rem;
     height: 5rem;
     text-indent: 0;
-    border-radius: 50%;
-    background-color: black;
     background-image: none;
-    border: solid #0B5ED7 5px;
 }
 
 /* ----------------------------------------------------------------------------- */
