@@ -1,0 +1,360 @@
+/* -------------------------------------------------------------------------------- */
+/* Navbar ------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+#navbarNavDropdown ul{
+    border: none;
+}
+#navbarNavDropdown ul li a{
+    position: relative;
+    border: none;
+}
+#navbarNavDropdown ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transition: all 1s;
+    background-color: white;
+}
+#navbarNavDropdown ul li:hover a::after{
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Home Section ------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+#home{
+    background-image: url(../src/Images/HomeSectionBG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#homeBG{
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.home-bg h1{
+    font-family: sans-serif;
+    font-size: 4rem;
+}
+
+/* Home-Animation -------------------------------------------------------------- */
+
+.rotating-text {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: white;
+}
+.rotating-text p {
+  display: inline-flex;
+  margin: 0;
+  vertical-align: top;
+}
+.rotating-text p .word {
+  position: absolute;
+  display: flex;
+  opacity: 0;
+}
+.rotating-text p .word .letter {
+  transform-origin: center center 25px;
+}
+.rotating-text p .word .letter.out {
+  transform: rotateX(90deg);
+  transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+}
+.rotating-text p .word .letter.in {
+  transition: 0.38s ease;
+}
+.rotating-text p .word .letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.w-1 {
+  color: blueviolet;
+}
+
+.w-2 {
+  color: #f1c40f;
+}
+
+.w-3 {
+  color: purple;
+}
+
+.w-4 {
+  color: #2ecc71;
+}
+
+.w-5 {
+  color: #8e44ad;
+}
+
+/* Home-SocialMedia ------------------------------------------------------------ */
+
+.GitHub{
+    color: black;
+}
+
+.LinkedIn{
+    color: #0366C3;
+}
+
+.Facebook{
+    color: #1877F2;
+}
+
+.Twitter{
+    color: #1877F2;
+}
+
+.Instagram{
+    color: #E8067F;
+}
+
+.Youtube{
+    color: red;
+}
+
+.TikTok{
+    color: black;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Skills Section -------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+#skills{
+    background-image: url(../src/Images/SkillsSectionBG.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#skillsBG{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.skills_myLogo{
+    width: 350px;
+    height: 350px;
+}
+
+/* FrontEnd Skills ------------------------------------------------------------- */
+
+#FrontEndSkillsSlide{
+    display: none;
+}
+#FrontEndSkillsSlide ul{
+    font-size: 1.25rem;
+    font: bold;
+    margin: 0;
+    padding-top: 15px;
+}
+
+/* BackEnd Skills -------------------------------------------------------------- */
+
+#BackEndSkillsSlide{
+    display: none;
+}
+#BackEndSkillsSlide ul{
+    font-size: 1.25rem;
+    font: bold;
+    margin: 0;
+    padding-top: 15px;
+}
+
+/* IT Skills ------------------------------------------------------------------- */
+
+#ITSkillsSlide{
+    display: none;
+}
+#ITSkillsSlide ul{
+    font-size: 1.25rem;
+    font: bold;
+    margin: 0;
+    padding-top: 15px;
+}
+
+/* Info Contact ---------------------------------------------------------------- */
+
+#infoDiv{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid #31D2F2 2px;
+    border-radius: 15px;
+    display: none;
+    padding: 16px;
+    margin: auto;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* About Section --------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+.about_heder{
+    font-size: 3rem;
+    font-weight: bolder;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_heder::before{
+    content:"ABOUT ME.";
+    position: absolute;
+    color: rgb(211, 219, 226);
+    font-size: 6rem;
+    z-index: -1;
+}
+
+/* Section Sizing -------------------------------------------------------------- */
+
+#about_Programming{
+    background-color: #F4F4F4;
+}
+
+#about_BTN{
+    padding-left: 12px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Services Section ------------------------------------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+.services_heder{
+    height: 120px;
+    font-size: 3rem;
+    position: relative;
+    font-weight: bolder;
+}
+
+.services_heder::before{
+    content:"";
+    width: 25%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 37.5%;
+    background-color: blue;
+}
+
+.services_heder::after{
+    content:"";
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 25%;
+    border: solid #212529 7.5px ;
+    background-color: blue;
+    z-index: 2;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Practical ------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+.practical_heder{
+    height: 120px;
+    font-size: 3rem;
+    position: relative;
+    font-weight: bolder;
+}
+
+.practical_heder::before{
+    content:"";
+    width: 25%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 37.5%;
+    background-color: black;
+}
+
+.practical_heder::after{
+    content:"";
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 25%;
+    border: solid white 7.5px ;
+    background-color: black;
+    z-index: 2;
+}
+
+/* Card ------------------------------------------------------------------------ */
+
+.practical_card{
+    height: 500px;
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+    .practical_card{
+
+        height: 600px;
+    }
+
+}
+
+/* Slider BTN ------------------------------------------------------------------ */
+
+.SliderPositionSticky{
+    position: sticky !important;
+}
+
+.practical_Slider_BTN_Next_Prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    text-indent: 0;
+    border-radius: 50%;
+    background-color: black;
+    background-image: none;
+    border: solid #0B5ED7 5px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Footer ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+.footer_logo{
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Shared ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+.Pointer{
+    cursor: pointer;
+}
+
+.a_None{
+    text-decoration: none;
+}
+
+.SM-BTN-icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: solid black 3px;
+    transition: transform 0.75s;
+}
+.SM-BTN-icon:hover{
+    border: solid white 2px;
+    transform: scale(1.25);
+}
