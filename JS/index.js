@@ -1,6 +1,29 @@
 "use strict";
 
 /* ----------------------------------------------------------------------------- */
+/* Navbar ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+function changeBTNIcon(){
+  
+  let openIcon = document.getElementById("NavbarBTNOpenClose");
+
+  if (openIcon.classList.contains("fa-bars")) {
+
+    openIcon.classList.replace("fa-solid","fa-regular")
+    openIcon.classList.replace("fa-bars","fa-circle-xmark")
+
+
+  }else{
+
+    openIcon.classList.replace("fa-regular","fa-solid")
+    openIcon.classList.replace("fa-circle-xmark","fa-bars")
+
+  }
+
+}
+
+/* ----------------------------------------------------------------------------- */
 /* Home Section ---------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------- */
 
