@@ -301,7 +301,7 @@
     width: 200px;
     height: 200px;
     transition: all 0.5s;
-    border: solid white 0px;
+    border: solid black 1px;
 }
 
 .footer_logo:hover{
